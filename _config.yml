@@ -1,0 +1,12 @@
+name: Rambots
+
+collections:
+  shortlinks:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "shortlinks"
+    values:
+      layout: "redirect"

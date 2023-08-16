@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{ site.name }}  Shortlinks</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+<body style="padding-left: 20px">
+{{ content }}
+
+{% assign redirects = site.shortlinks %}
+
+{% for redirect in redirects %}
+    <p><a href="{{ redirect.url }}">{{ redirect.url }}</a> - <a href="{{ redirect.target }}">{{ redirect.target }}</a></p>
+{% endfor %}
+
+<h5>View source on <a href="https://github.com/frc2204/shortlinks">GitHub</a></h5>
+</body>
+</html>
