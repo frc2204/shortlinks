@@ -1,4 +1,5 @@
-name: Rambots
+name: Shortlinks
+description: A simple, easily manageable, shortlinks solution using Jekyll and GitHub Pages
 
 collections:
   shortlinks:

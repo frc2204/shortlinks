@@ -3,9 +3,15 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>{{ site.name }}  Shortlinks</title>
+    <title>{{ site.name }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <meta name="description" content="{{ site.description }}" />
+    <meta name="og:title" content="{{ site.name }}" />
+    <meta name="og:description" content="{{ site.description }}" />
+    <meta name="og:type" content="website" />
+    <meta name="og:url" content="{{ site.url }}" />
+    <meta name="og:image" content="{{ site.url }}/assets/file-symlink-file.svg" />
+    <link rel="icon" href="/assets/file-symlink-file.svg">
 </head>
 <body style="padding-left: 20px">
 {{ content }}
