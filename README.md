@@ -36,6 +36,8 @@ The file should contain the following information (front matter):
 
 ```yaml
 ---
+name: Example Shortlink # The name of the shortlink (optional)
+description: An example shortlink # The description of the shortlink (optional)
 target: https://example.com # The URL to redirect to
 permalink: /example-shortlink/ # The shortened link (relative path)
 ---
