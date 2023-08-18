@@ -25,8 +25,8 @@ To host your shortlinks on GitHub Pages, you must enable it in the repository se
 
 For more information regarding GitHub Pages, visit [pages.github.com](https://pages.github.com).
 
-The GitHub action included with this repository will automatically build and deploy your shortlinks to GitHub Pages - no
-need to worry about that.
+The GitHub action included with this repository will automatically build and deploy your shortlinks to GitHub Pages. If
+you do not want to use GitHub Pages, you can disable the action by removing the `.github/workflows/gh-pages.yml` file.
 
 ### Managing Shortlinks
 
