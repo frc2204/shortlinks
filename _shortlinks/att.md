@@ -1,6 +1,6 @@
 ---
-name: Attendance for Electrical and Programming Teams
-description: Link for attendance form (Electrical & Programming)
-target: https://forms.office.com/r/rrecUxSEdZ
+name: Attendance Form
+description: Link for attendance form
+target: https://forms.office.com/r/Zg85yUQy94
 permalink: /att/
 ---
