@@ -1,5 +1,6 @@
 name: Shortlinks
 description: A simple, easily manageable, shortlinks solution using Jekyll and GitHub Pages
+repository: frc2204/shortlinks
 
 collections:
   shortlinks:
